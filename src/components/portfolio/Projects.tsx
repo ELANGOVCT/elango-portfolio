@@ -1,5 +1,6 @@
 import { useMemo, useState } from "react";
-import { Github, ExternalLink, Trophy, Wrench } from "lucide-react";
+import { ExternalLink, Trophy, Wrench } from "lucide-react";
+import { GithubIcon } from "./BrandIcons";
 import { SectionHeader } from "./About";
 
 type Project = {
