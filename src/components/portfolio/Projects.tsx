@@ -162,7 +162,7 @@ export function Projects() {
                   rel="noreferrer"
                   className="glass inline-flex items-center gap-1.5 rounded-full px-4 py-2 text-xs font-medium transition hover:ring-glow"
                 >
-                  <Github className="h-3.5 w-3.5" /> GitHub
+                  <GithubIcon className="h-3.5 w-3.5" /> GitHub
                 </a>
               </div>
             </article>
