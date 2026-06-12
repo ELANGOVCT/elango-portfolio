@@ -95,11 +95,16 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:type", content: "website" },
       { property: "og:site_name", content: "Elango C — Portfolio" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "Elango C — Software Developer" },
+      { name: "twitter:title", content: "Elango C — Software Developer & Full Stack Java Engineer" },
       {
         name: "twitter:description",
         content: "Java · Spring Boot · Python · React/Next.js · Machine Learning.",
       },
+      { name: "description", content: "A modern, recruiter-focused portfolio website showcasing Elango C's skills in Software Development, Full Stack Java, and AI/ML." },
+      { property: "og:description", content: "A modern, recruiter-focused portfolio website showcasing Elango C's skills in Software Development, Full Stack Java, and AI/ML." },
+      { name: "twitter:description", content: "A modern, recruiter-focused portfolio website showcasing Elango C's skills in Software Development, Full Stack Java, and AI/ML." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/8075cb5a-b93d-4ded-af91-b6f033aa0aa0/id-preview-ebd43310--d9edaf2a-65b8-4d07-a2d5-a99e542c1a5e.lovable.app-1781238983294.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/8075cb5a-b93d-4ded-af91-b6f033aa0aa0/id-preview-ebd43310--d9edaf2a-65b8-4d07-a2d5-a99e542c1a5e.lovable.app-1781238983294.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
