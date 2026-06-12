@@ -77,19 +77,36 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { name: "theme-color", content: "#0b0b1a" },
+      { title: "Elango C — Software Developer & Full Stack Java Engineer" },
+      {
+        name: "description",
+        content:
+          "Portfolio of Elango C — Computer Science Engineering student building Java, AI/ML and full-stack web solutions. National-level project winner.",
+      },
+      { name: "author", content: "Elango C" },
+      { property: "og:title", content: "Elango C — Software Developer & Full Stack Java Engineer" },
+      {
+        property: "og:description",
+        content:
+          "Java · Spring Boot · Python · React/Next.js · Machine Learning. Final-year CSE student open to SDE, Full Stack and AI/ML roles.",
+      },
       { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
+      { property: "og:site_name", content: "Elango C — Portfolio" },
+      { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Elango C — Software Developer" },
+      {
+        name: "twitter:description",
+        content: "Java · Spring Boot · Python · React/Next.js · Machine Learning.",
+      },
     ],
     links: [
+      { rel: "stylesheet", href: appCss },
+      { rel: "preconnect", href: "https://fonts.googleapis.com" },
+      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {
         rel: "stylesheet",
-        href: appCss,
+        href: "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap",
       },
     ],
   }),
